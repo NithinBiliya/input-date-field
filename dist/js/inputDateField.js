@@ -12,7 +12,7 @@
           change: '=ngChange',
           onChangeCallback: '&',
           dateOptions: '=?datepickerOptions',
-          focus: "=ngFocus",
+          focus: "&ngFocus",
           clazz: "="
         },
         require: "?ngModel",
