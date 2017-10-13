@@ -11,7 +11,9 @@
           required: '=ngRequired',
           change: '=ngChange',
           onChangeCallback: '&',
-          dateOptions: '=?datepickerOptions'
+          dateOptions: '=?datepickerOptions',
+          focus: "=ngFocus",
+          clazz: "="
         },
         require: "?ngModel",
         templateUrl: 'html/inputDateField.tmpl.html',

@@ -15,4 +15,8 @@ angular.module('myApp', ['input.date.field'])
         $log.info("dt2 changed at - "+(new Date()));
       }
 
+      vm.focusHandler = function(para) {
+        $log.info("inside focusHandler - "+para);
+      }
+
   }])

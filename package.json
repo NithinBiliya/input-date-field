@@ -1,6 +1,6 @@
 {
   "name": "input-date-field",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "yet another date field",
   "main": "dist/inputDateField.js",
   "dependencies": {},

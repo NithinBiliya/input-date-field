@@ -10,6 +10,7 @@
 
     <!-- build:css css/app.css -->
     <!-- inject:css -->
+    <link rel="stylesheet" href="css/sample.css">
     <!-- endinject -->
     <!-- endbuild -->
 
@@ -23,7 +24,7 @@
 
       <input-date-field ng-model="vm.dt" ng-disabled="true"></input-date-field>
 
-      <input-date-field ng-model="vm.dt" datepicker-options="vm.options"></input-date-field>
+      <input-date-field ng-model="vm.dt" datepicker-options="vm.options" ng-focus="vm.focusHandler(123)" clazz="'requiredField'" ng-required="true"></input-date-field>
 
       dt - {{vm.dt}}
 
