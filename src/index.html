@@ -24,11 +24,11 @@
 
       <input-date-field ng-model="vm.dt" ng-disabled="true"></input-date-field>
 
-      <input-date-field ng-model="vm.dt" datepicker-options="vm.options" ng-focus="vm.focusHandler(123)" clazz="'requiredField'" ng-required="true"></input-date-field>
+      <input-date-field ng-model="vm.dt" datepicker-options="vm.options" on-focus-callback="vm.focusHandler(123)" clazz="'requiredField'" ng-required="true"></input-date-field>
 
       dt - {{vm.dt}}
 
-      <input-date-field ng-model="vm.dt2" datepicker-options="vm.options" on-change-callback="vm.logChangedTime()"></input-date-field>
+      <input-date-field ng-model="vm.dt2" datepicker-options="vm.options" on-focus-callback="vm.focusHandler(124)" on-change-callback="vm.logChangedTime()"></input-date-field>
 
     </div>
 
